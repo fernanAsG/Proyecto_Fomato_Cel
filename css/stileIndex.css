@@ -1,0 +1,47 @@
+*
+{
+	background: #6f6f6f;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img
+{
+	height: 200px;
+	width: 200px;
+}
+.center
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	height: 30vh;
+}
+
+.centercontenido
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	height: 1vh;
+}
+
+a
+{
+	border-radius: 30px;
+	border: 1px solid white;
+	padding: 5px 50px;
+	columns: white;
+	text-decoration: none;
+	background: white;
+	cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+}
